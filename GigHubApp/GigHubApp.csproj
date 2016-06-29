@@ -220,6 +220,10 @@
     <Compile Include="Migrations\201606200845231_PopulateGenresTable.Designer.cs">
       <DependentUpon>201606200845231_PopulateGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606290949054_GigsTable Modified nullable datetime.cs" />
+    <Compile Include="Migrations\201606290949054_GigsTable Modified nullable datetime.Designer.cs">
+      <DependentUpon>201606290949054_GigsTable Modified nullable datetime.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -292,6 +296,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="DAL\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Controllers\fonts\glyphicons-halflings-regular.woff" />
@@ -313,6 +318,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606200845231_PopulateGenresTable.resx">
       <DependentUpon>201606200845231_PopulateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606290949054_GigsTable Modified nullable datetime.resx">
+      <DependentUpon>201606290949054_GigsTable Modified nullable datetime.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
