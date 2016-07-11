@@ -17,6 +17,7 @@ namespace GigHubApp.Controllers
 
 
         // GET: Gigs
+        [Authorize]
         public ActionResult Create()
         {
             var genre = new GigFormViewModel
