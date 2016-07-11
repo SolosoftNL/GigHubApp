@@ -14,7 +14,7 @@ namespace GigHubApp.Models
 
         [Required]
         [StringLength(255)]
-                public string Venue { get; set; }
+        public string Venue { get; set; }
 
         [Required]
         public Genre Genre { get; set; }
